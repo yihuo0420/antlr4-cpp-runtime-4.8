@@ -1,6 +1,5 @@
 {
     "cmake.configureArgs": [
-        "--config Debug ",
-        "-DCMAKE_INSTALL_PREFIX=D:/ProgramData/cmake_modules" 
+        "-DCMAKE_INSTALL_PREFIX=D:/ProgramData/cmake_modules" ,
     ],
 }
