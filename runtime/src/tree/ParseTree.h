@@ -74,6 +74,12 @@ namespace tree {
      * EOF is unspecified.</p>
      */
     virtual misc::Interval getSourceInterval() = 0;
+    
+    /**
+     * Get the unique type identifier for the tree
+     */
+    virtual size_t getContextId() const;
+
   };
 
   // A class to help managing ParseTree instances without the need of a shared_ptr.
