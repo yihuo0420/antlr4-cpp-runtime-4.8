@@ -64,6 +64,10 @@ size_t RuleContext::getRuleIndex() const {
   return INVALID_INDEX;
 }
 
+size_t RuleContext::getContextId() const {
+  return INVALID_INDEX;
+}
+
 size_t RuleContext::getAltNumber() const {
   return atn::ATN::INVALID_ALT_NUMBER;
 }

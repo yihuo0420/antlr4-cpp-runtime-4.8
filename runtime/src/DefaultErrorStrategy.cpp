@@ -155,7 +155,7 @@ void DefaultErrorStrategy::reportInputMismatch(Parser *recognizer, const InputMi
 }
 
 void DefaultErrorStrategy::reportFailedPredicate(Parser *recognizer, const FailedPredicateException &e) {
-  const std::string& ruleName = recognizer->getRuleNames()[recognizer->getContext()->getRuleIndex()];
+  const std::string& ruleName = recognizer->getRuleNames()[recognizer->getContext()-> ()];
   std::string msg = "rule " + ruleName + " " + e.what();
   recognizer->notifyErrorListeners(e.getOffendingToken(), msg, std::make_exception_ptr(e));
 }

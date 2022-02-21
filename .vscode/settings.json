@@ -1,5 +1,15 @@
 {
-    "cmake.configureArgs": [
-        "-DCMAKE_INSTALL_PREFIX=D:/ProgramData/cmake_modules" ,
-    ],
+  "cmake.configureArgs": [
+    "-DCMAKE_INSTALL_PREFIX=D:/ProgramData/cmake_modules",
+    "-DCMAKE_BUILD_TYPE=Debug"
+  ],
+  "cSpell.words": [
+    "antlr",
+    "ANTLR",
+    "recog"
+  ],
+  "files.associations": {
+    "*.g4": "antlr",
+    "xstring": "cpp"
+  }
 }

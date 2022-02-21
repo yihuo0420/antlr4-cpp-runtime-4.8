@@ -82,6 +82,8 @@ namespace antlr4 {
 
     virtual size_t getRuleIndex() const;
 
+    virtual size_t getContextId() const;
+
     /** For rule associated with this parse tree internal node, return
      *  the outer alternative number used to match the input. Default
      *  implementation does not compute nor store this alt num. Create
