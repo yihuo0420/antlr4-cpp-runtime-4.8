@@ -8,4 +8,5 @@
 using namespace antlr4;
 
 CharStream::~CharStream() {
+
 }
