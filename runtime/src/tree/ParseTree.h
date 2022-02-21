@@ -74,7 +74,7 @@ namespace tree {
      * EOF is unspecified.</p>
      */
     virtual misc::Interval getSourceInterval() = 0;
-    
+
     /**
      * Get the unique type identifier for the tree
      */
